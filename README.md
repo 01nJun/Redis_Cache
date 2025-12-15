@@ -43,7 +43,7 @@
 | RedisConnection API        | 직렬화 직접 처리                             | opsForZSet / opsForList 사용  | 코드 간결화, 자동 직렬화, 유지보수 용이                 |
 | clearAllCacheFast()        | Redis만 삭제                                 | @CacheEvict 추가              | Redis와 Spring Cache 데이터 일관성 확보                 |
 
-### # Redis 조회 방식 개선 (Polling → SSE 기반 이벤트 처리)
+### # Redis 조회 방식 개선 (Polling → SSE 기반 이벤트 처리) 
 
 #### 🔴 기존 방식 (Polling 기반 Redis 조회)
 
